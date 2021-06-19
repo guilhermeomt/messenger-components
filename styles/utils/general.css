@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 375px;
+    margin: 0 auto;
+  }
+}
