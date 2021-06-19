@@ -7,6 +7,11 @@
   margin-bottom: 27px;
 }
 
+.message-bar--focus {
+  padding: 8px 11px;
+  gap: 11px;
+}
+
 .message-bar__button {
   width: 20px;
   height: 20px;
@@ -24,9 +29,14 @@
 .message-bar__text {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 3px 5px 3px 10px;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 18px;
+}
+
+.message-bar__text--focus {
+  width: 285px;
 }
 
 .message-bar__input {
@@ -42,6 +52,10 @@
   line-height: 20px;
   letter-spacing: -0.64px;
   text-align: left;
+}
+
+.message-bar__input--focus {
+  width: 90%;
 }
 
 .message-bar__input::placeholder {
