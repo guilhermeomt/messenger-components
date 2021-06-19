@@ -1,0 +1,30 @@
+.search-bar {
+  max-width: 343px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-bar__icon {
+  width: 15px;
+}
+
+.search-bar__input {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  color: #000;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  text-align: left;
+}
+
+.search-bar__input::placeholder {
+  color: #8e8e93;
+}
