@@ -1,0 +1,24 @@
+.person-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-info__img {
+  width: 80px;
+  height: 80px;
+}
+
+.person-info__name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 13px;
+  margin-bottom: 4px;
+}
+
+.person-info__status {
+  font-size: 17px;
+  letter-spacing: -0.33px;
+  color: rgba(255, 255, 255, 0.6);
+}
