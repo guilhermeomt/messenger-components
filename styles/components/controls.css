@@ -8,3 +8,25 @@
   left: 50%;
   transform: translate(-50%);
 }
+
+.controls--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 20px 0 20px;
+}
+
+.controls--emoji {
+  flex-direction: column;
+}
+
+.controls__button {
+  border: 0;
+  background-color: transparent;  
+  cursor: pointer;
+}
+
+.controls__bottom {
+  display: flex;
+  gap: 33px;
+}
