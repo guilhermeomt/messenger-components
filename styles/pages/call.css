@@ -3,6 +3,7 @@
 @import '../components/status-bar.css';
 @import '../components/circle-button.css';
 @import '../components/person-info.css';
+@import '../components/controls.css';
 
 /* Call Page Styles */
 body {
@@ -14,7 +15,7 @@ body {
   color: #fff;
 }
 
-.circle-button {
+.circle-button#chat {
   margin-top: 16px;
   margin-left: 20px;
 }
