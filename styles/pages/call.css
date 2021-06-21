@@ -4,6 +4,7 @@
 @import '../components/circle-button.css';
 @import '../components/person-info.css';
 @import '../components/controls.css';
+@import '../components/home-indicator.css';
 
 /* Call Page Styles */
 body {

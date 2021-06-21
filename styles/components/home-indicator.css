@@ -1,0 +1,16 @@
+.home-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.home-indicator__bar {
+  width: 134px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 100px;
+}
