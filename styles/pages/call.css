@@ -2,7 +2,9 @@
 
 @import '../components/status-bar.css';
 @import '../components/circle-button.css';
+@import '../components/person-info.css';
 
+/* Call Page Styles */
 body {
   height: 100vh;
   padding: 0;
@@ -15,6 +17,10 @@ body {
 .circle-button {
   margin-top: 16px;
   margin-left: 20px;
+}
+
+.person-info {
+  margin-top: 60px;
 }
 
 @media only screen and (min-width: 768px) {
